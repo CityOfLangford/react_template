@@ -1,7 +1,4 @@
-import OpenBurn from "./components/openBurn/OpenBurn";
-
 const App = () => {
-    // const permitType = useSelector((state) => state.app.permitType);
 
     return (
         <div className="">
