@@ -16,8 +16,7 @@ const App = () => {
                     />
                 </a>
             </div>
-
-            <OpenBurn />
+        {/* Content Here*/}
         </div>
     );
 };
