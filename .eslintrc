@@ -1,0 +1,29 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended"
+    ],
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": false,
+        "ecmaFeatures": {
+            "globalReturn": false,
+            "jsx": true
+        }
+    },
+    "env": {
+        "es2021": true,
+        "browser": true,
+        "node": true
+    },
+    "plugins": ["react", "react-hooks"],
+    "rules": {
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "react/react-in-jsx-scope": "off",
+        "no-unused-vars": 0,
+        "react/prop-types": 0
+      
+    }
+}
