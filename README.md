@@ -7,8 +7,8 @@ This is a template for React projects with configurations for various plugins an
 [Create a repo from this template on GitHub](https://github.com/cityoflangford/react_template/generate) or you can do this manually with Git
 
 ```sh
-npx degit antfu/vitesse my-vitesse-app
-cd my-vitesse-app
+npx degit cityoflangford/react_template my-react-app
+cd my-react-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
 
