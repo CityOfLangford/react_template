@@ -1,29 +1,22 @@
 {
     "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "plugin:react-hooks/recommended"
+        "airbnb",
+        "airbnb-typescript",
+        "airbnb/hooks",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking"
     ],
-    "parserOptions": {
-        "sourceType": "module",
-        "allowImportExportEverywhere": false,
-        "ecmaFeatures": {
-            "globalReturn": false,
-            "jsx": true
-        }
-    },
-    "env": {
-        "es2021": true,
-        "browser": true,
-        "node": true
-    },
-    "plugins": ["react", "react-hooks"],
     "rules": {
-        "react/jsx-uses-react": "error",
-        "react/jsx-uses-vars": "error",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/indent": "off",
         "react/react-in-jsx-scope": "off",
-        "no-unused-vars": 0,
-        "react/prop-types": 0
-      
+        "react/jsx-indent": "off",
+        "indent": [
+            "error",
+            4
+        ]
+    },
+    "parserOptions": {
+        "project": "./tsconfig.json"
     }
 }

@@ -1,3 +1,3 @@
 export default {
-    /*Initial reducer values here */
-}
+    /* Initial reducer values here */
+};
