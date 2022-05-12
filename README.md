@@ -1,3 +1,5 @@
+<a href="https://langford.ca">![Frame 1(4)](https://user-images.githubusercontent.com/40218657/168182827-5f060ab5-1410-4a5a-ba26-1a1a40eaf40d.png)</a>
+
 # React Template
 
 This is a template for React projects with configurations for various plugins and libraries.
