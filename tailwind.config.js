@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-/* eslint-disable no-undef */
 const formsPlugin = require("@tailwindcss/forms");
 
 module.exports = {
