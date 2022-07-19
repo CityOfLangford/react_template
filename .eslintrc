@@ -13,6 +13,11 @@
 		"@typescript-eslint/indent": "off",
 		"react/react-in-jsx-scope": "off"
 	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
 	"parser": "@typescript-eslint/parser",
 	"parserOptions": {
 		"project": ["./tsconfig.json"]
