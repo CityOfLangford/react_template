@@ -1,19 +1,16 @@
 {
 	"extends": [
-		"airbnb",
-		"airbnb-typescript",
-		"airbnb/hooks",
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:react-hooks/recommended",
+		"plugin:jsx-a11y/recommended",
 		"plugin:@typescript-eslint/recommended",
-		"plugin:@typescript-eslint/recommended-requiring-type-checking"
+		"plugin:@typescript-eslint/recommended-requiring-type-checking",
+		"prettier"
 	],
 	"rules": {
 		"@typescript-eslint/no-non-null-assertion": "off",
 		"@typescript-eslint/indent": "off",
-		"react/react-in-jsx-scope": "off",
-		"react/jsx-indent": "off",
-		"indent": ["error", 4]
-	},
-	"parserOptions": {
-		"project": "./tsconfig.json"
+		"react/react-in-jsx-scope": "off"
 	}
 }
