@@ -1,6 +1,7 @@
-{
-    "trailingComma": "es5",
-    "tabWidth": 4,
-    "semi": false,
-    "printWidth": 120
-  }
+trailingComma: es5
+tabWidth: 2
+printWidth: 80
+useTabs: true
+endOfLine: lf
+singleAttributePerLine: true
+arrowParens: always
